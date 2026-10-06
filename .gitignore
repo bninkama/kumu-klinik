@@ -1,0 +1,29 @@
+# Node
+node_modules/
+.env
+*.local
+
+# Flutter / Dart build output
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+
+# Flutter SDK (toolchain, not project source — ~1GB)
+flutter/
+
+# Firebase
+.firebase/
+firebase-debug.log
+.firebaserc
+
+# GCP / secrets
+service-account.json
+*.key.json
+application_default_credentials.json
+
+# OS / editor
+Thumbs.db
+.DS_Store
